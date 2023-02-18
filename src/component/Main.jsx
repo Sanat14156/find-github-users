@@ -32,7 +32,7 @@ function Main() {
         <label>Search User:</label> <input type="text" placeholder='enter username' name="username" onChange={e=>setUsername(e.target.value)}></input>
         <br></br>
         <br></br>
-        <button>Submit</button>
+        <button>Search</button>
         </form>
        <Card html_url={data.html_url} username={username} avatar_url={data.avatar_url}></Card>
     </div>

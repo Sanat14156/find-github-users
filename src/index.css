@@ -10,6 +10,8 @@ body{
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(rgb(247, 247, 246),rgb(21, 243, 13));
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .card{
     background-color: rgb(81, 82, 82);
@@ -52,4 +54,11 @@ body{
 .form>button{
     font-size: 20px;
     padding: 5px 10px;
+}
+
+@media screen and (max-width:350px){
+    .card{
+        transform: scale(0.8);
+    }
+    
 }
