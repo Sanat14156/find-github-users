@@ -34,7 +34,7 @@ function Main() {
         <br></br>
         <button>Search</button>
         </form>
-       <Card html_url={data.html_url} username={username} avatar_url={data.avatar_url}></Card>
+       <Card html_url={data.html_url} username={data.login} avatar_url={data.avatar_url}></Card>
     </div>
   )
 }
